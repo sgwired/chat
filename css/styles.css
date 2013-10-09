@@ -1,0 +1,38 @@
+/* 
+    Document   : styles.css
+    Created on : Oct 8, 2013, 3:23:12 PM
+    Author     : sheltong
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+body {
+    font:0.8em Arial;
+}
+
+.chat .message {
+    border:1px solid #ccc;
+    width:250px;
+    height:210px;
+    padding:10px;
+    overflow-y: scroll;
+    
+}
+
+.chat .entry {
+    width: 260px;
+    height:40px;
+    padding:5px;
+    margin-top: 5px;
+    font: 1em Arial;
+}
+
+.chat .message a {
+    color:slategrey;
+    
+}
+.chat .message p {
+    margin:5px 0;
+}
