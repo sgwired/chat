@@ -6,10 +6,10 @@ class Chat extends Core {
         $this->query("
            SELECT chat.message, 
                  users.name,
-                 users.id
+                 users.user_id
            FROM  chat
            JOIN  users
-           ON   chat.user_id = users.id
+           ON   chat.user_id = users.user_id
            ORDER BY chat.timestamp
            DESC
             ");

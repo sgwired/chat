@@ -8,7 +8,8 @@ require 'core/init.php';
 $chat = new Chat(); 
 
 ?> <pre><?php //print_r($chat->fetchMessages());?></pre><?
-$chat->throwMessages(2, 'Another new message!');
+
+//$chat->throwMessages(2, 'Another new message!');
 
 ?>
 <!DOCTYPE html>
